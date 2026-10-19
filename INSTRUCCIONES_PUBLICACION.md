@@ -1,37 +1,36 @@
-# Publicación de NewRide.es
+# Publicar NewRide gratis en GitHub Pages
 
-Este repositorio público contiene **solo la web estática de NewRide** (HTML, CSS y JavaScript). El código Flutter y el backend de la app permanecen privados en otro repositorio.
+El sitio web de **NewRide** está preparado para usar la dirección gratuita:
 
-## Activar GitHub Pages
+**https://lmt2506.github.io/NewRide.es/**
 
-1. Abre **Settings → Pages** de este repositorio.
-2. En **Build and deployment**, selecciona **Deploy from a branch**.
-3. Elige **main** y **/(root)**, y pulsa **Save**.
-4. Espera a que GitHub indique que el sitio está publicado.
+No hay que registrar ni pagar por `newride.es`. Se ha eliminado el archivo `CNAME` para que no se intente conectar un dominio no registrado.
 
-URL provisional tras activar Pages: `https://lmt2506.github.io/NewRide.es/` (si no tienes un dominio configurado y validado).
+## Activar la publicación (acción pendiente en GitHub)
 
-## Dominio personalizado
+1. Abre https://github.com/Lmt2506/NewRide.es/settings/pages
+2. En **Build and deployment → Source** selecciona **Deploy from a branch**.
+3. Selecciona **main** y **/(root)**.
+4. Pulsa **Save** y espera a que GitHub Pages termine el despliegue.
+5. Abre https://lmt2506.github.io/NewRide.es/
 
-El archivo `CNAME` contiene `newride.es`. Para usar este dominio, primero debes ser propietario de él y configurar sus DNS en tu proveedor:
+Si GitHub Pages muestra una URL personalizada antigua en **Custom domain**, bórrala y guarda el cambio.
 
-| Tipo | Nombre | Valor |
-|---|---|---|
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | lmt2506.github.io |
+## Contenido del repositorio
 
-En **Settings → Pages**, introduce `newride.es` como dominio personalizado y, tras validar los DNS, activa **Enforce HTTPS**. Los cambios DNS pueden tardar en propagarse. Opcionalmente verifica el dominio desde GitHub antes de asignarlo.
+- `index.html`: portada de NewRide.
+- `privacidad.html`: borrador de política de privacidad.
+- `condiciones.html`: borrador de condiciones de uso.
+- `soporte.html`: contacto y preguntas frecuentes.
+- `css/` y `js/`: diseño adaptable e interacciones de la web.
+- `assets/favicon.svg`: icono.
 
-## Antes de anunciar el lanzamiento
+Este repositorio **es público y solo contiene la web informativa**. El código Flutter de NewRide continúa privado en `Lmt2506/RideNow`.
 
-- Sustituye los datos entre corchetes en `privacidad.html`, `condiciones.html` y `soporte.html` por el titular y el correo real; los textos son borradores y requieren revisión legal.
-- Revisa la descripción de la app, el enlace de Google Play y el estado de Premium.
-- Las fotos de las tres tarjetas principales de la portada usan URLs externas de Unsplash como imágenes provisionales. Sustitúyelas por los WebP locales originales si quieres que el resultado gráfico sea idéntico a la web preparada previamente.
-- La página web es informativa: no incorpora el cliente Flutter ni accede a bases de datos privadas.
+## Importante antes de compartir la web
 
-## Procedencia de la web
+Los documentos legales siguen siendo borradores. Sustituye los campos pendientes por tus datos como responsable y una dirección de contacto auténtica; revisa su contenido antes de publicarlos como definitivos.
 
-Adaptación del diseño creado para NewRide. La rama privada `gh-pages` del repositorio original sirvió de fuente de los textos, HTML, estilos y scripts; este repositorio **no contiene** las claves ni el código privado de la aplicación.
+Las tres fotografías de portada se cargan actualmente desde URLs externas de Unsplash; conviene sustituirlas por archivos propios del repositorio para un funcionamiento independiente de terceros.
+
+Cuando quieras registrar un dominio personalizado, podrás hacerlo posteriormente sin cambiar el funcionamiento de la web actual.
