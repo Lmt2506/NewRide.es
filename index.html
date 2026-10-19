@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101e30">
+  <meta name="description" content="NewRide es tu aplicación de motos: rutas GPS, garaje, mantenimientos, estadísticas, mapas y modo circuito. Próximamente en Google Play.">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>NewRide — Cada ruta cuenta</title>
+  
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#principal">Saltar al contenido</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="NewRide, volver al inicio"><span class="brand-symbol"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3 17a9 9 0 1 1 18 0"/><circle cx="12" cy="17" r="1"/><path d="M7 17h10"/></svg></span>NewRide</a>
+    <nav aria-label="Secciones principales" class="desktop-nav"><a href="index.html#rutas">Rutas</a><span class="nav-pip">·</span><a href="index.html#garaje">Garaje</a><span class="nav-pip">·</span><a href="index.html#circuito">Circuito</a></nav>
+    <button class="nav-button" type="button" data-menu-button aria-controls="menu-movil" aria-expanded="false" aria-label="Abrir o cerrar menú"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+  <nav id="menu-movil" class="mobile-nav" data-mobile-nav aria-label="Menú móvil"><a href="index.html#rutas">Rutas</a><a href="index.html#garaje">Garaje</a><a href="index.html#circuito">Circuito</a><a href="privacidad.html">Privacidad</a><a href="condiciones.html">Condiciones de uso</a><a href="soporte.html">Soporte</a></nav>
+</header>
+<main id="principal">
+  <section class="hero"><div class="container hero-center">
+    <p class="eyebrow">Tu moto. Tus rutas. Tus momentos.</p>
+    <h1>Cada ruta cuenta.</h1>
+    <p class="hero-description">Controla tu vehículo, registra tus aventuras y analiza tu rendimiento en circuito.</p>
+    <div class="cta-row"><span class="btn btn-soon" role="status"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm4 16h2"/></svg> Próximamente en Google Play</span></div>
+    <p class="micro-note">NewRide está preparando su lanzamiento. Las descargas aún no están disponibles.</p>
+  </div></section>
+  <section class="showcase" aria-label="Descubre NewRide"><div class="container"><div class="showcase-grid">
+    <a href="#garaje" class="showcase-card"><div class="showcase-image"><img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Motorista cuidando una motocicleta en su garaje" width="760" height="756" fetchpriority="high"></div><span class="showcase-caption">Mi garaje <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+    <a href="#rutas" class="showcase-card"><div class="showcase-image"><img src="https://images.unsplash.com/photo-1757677050000-e6c9c11b6023?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Carretera de montaña con curvas y un motorista" width="760" height="756" fetchpriority="high"></div><span class="showcase-caption">Mis rutas <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+    <a href="#circuito" class="showcase-card"><div class="showcase-image"><img src="https://images.unsplash.com/photo-1566239814045-c9d457a8e47b?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Piloto inclinado sobre su moto en un circuito" width="760" height="756" fetchpriority="high"></div><span class="showcase-caption">Modo circuito <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+  </div></div></section>
+  <section class="section" id="rutas"><div class="container">
+   <div class="section-head" data-reveal><p class="eyebrow">Tu próxima aventura</p><h2 class="section-title">Disfruta el camino. Guarda cada historia.</h2><p class="section-subtitle">De la primera curva al último kilómetro: rutas, datos y recuerdos reunidos en un solo lugar.</p></div>
+   <div class="feature-grid">
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h4a5 5 0 0 0 5-5V8"/></svg></div><h3>Registro de rutas GPS</h3><p>Guarda recorridos con distancia, duración, velocidad, trazado e información del movimiento incluso durante la navegación en segundo plano.</p></article>
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></svg></div><h3>Planifica tus salidas</h3><p>Busca lugares, calcula recorridos por carretera y explora propuestas circulares pensadas para salir en moto.</p></article>
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/><circle cx="19" cy="6" r="2"/></svg></div><h3>Analiza tu actividad</h3><p>Consulta tu historial, las curvas, estadísticas mensuales y un mapa de calor personal de las zonas recorridas.</p></article>
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16a5 5 0 0 1-1-9 7 7 0 0 1 12 2 4 4 0 0 1-1 8"/><path d="M12 11v10m-4-4 4 4 4-4"/></svg></div><h3>Listo para ir sin cobertura</h3><p>Guarda trazados para consultarlos y registra salidas sin conexión, con sincronización manual cuando recuperes Internet.</p></article>
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3 17a9 9 0 1 1 18 0"/><circle cx="12" cy="17" r="1"/><path d="M7 17h10"/></svg></div><h3>Telemetría orientativa</h3><p>Explora velocidad, aceleración, frenadas y estimaciones de inclinación a partir del GPS y sensores del móvil.</p></article>
+    <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 8 4v6c0 5-4 9-8 10-4-1-8-5-8-10V6l8-4Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Privacidad de tus rutas</h3><p>Tus recorridos son personales: las publicaciones, rutas compartidas y funciones de comunidad están desactivadas actualmente.</p></article>
+   </div>
+  </div></section>
+  <section class="section" id="garaje"><div class="container split-section">
+    <div data-reveal><p class="eyebrow">Mi garaje</p><h2 class="section-title">Tu moto también tiene su historia.</h2><p class="section-subtitle">Un espacio para tus motocicletas, su kilometraje y los cuidados que las mantienen listas para cada salida.</p>
+      <ul class="check-list"><li>Gestiona tu garaje y consulta los datos de tus vehículos.</li><li>Registra mantenimientos, revisiones y próximos intervalos por kilómetros.</li><li>Actualiza el odómetro con las rutas registradas.</li><li>En Premium, cuando esté habilitado: más motos, fotos y avisos de mantenimiento opcionales.</li></ul>
+    </div>
+    <div class="status-panel" data-reveal><div class="status-heading">Tu espacio, a tu ritmo</div>
+      <div class="status-row"><span>Garaje de motos</span><span class="status-value">Disponible</span></div>
+      <div class="status-row"><span>Historial de mantenimientos</span><span class="status-value">Disponible</span></div>
+      <div class="status-row"><span>Control de kilometraje</span><span class="status-value">Disponible</span></div>
+      <div class="status-row"><span>Suscripción Premium mensual</span><span class="status-value soon">Pendiente de activación</span></div>
+    </div>
+  </div></section>
+  <section class="section" id="circuito"><div class="container">
+    <div class="section-head" data-reveal><p class="eyebrow">Modo circuito</p><h2 class="section-title">Cada vuelta, una nueva referencia.</h2><p class="section-subtitle">Graba tus tandas en circuitos y revisa tiempos estimados y trazados con herramientas diseñadas para disfrutar la pista.</p></div>
+    <div class="feature-grid">
+      <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13c0-6 5-9 8-9s8 3 8 9-4 8-8 8-8-2-8-8Z"/><path d="m8 13 3 3 5-6"/></svg></div><h3>Tandas y vueltas</h3><p>Registra vueltas, compara tiempos y consulta el mejor crono estimado mediante los cruces de meta detectados por GPS.</p></article>
+      <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></svg></div><h3>Biblioteca de circuitos</h3><p>Explora el catálogo de circuitos incluido y conserva configuraciones de trazado para sesiones sin conexión.</p></article>
+      <article class="feature" data-reveal><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3 17a9 9 0 1 1 18 0"/><circle cx="12" cy="17" r="1"/><path d="M7 17h10"/></svg></div><h3>Análisis posterior</h3><p>Revisa tus recorridos, velocidad y telemetría guardada al terminar una sesión.</p></article>
+    </div>
+  </div></section>
+  <section class="section"><div class="container"><div class="band" data-reveal><div><h2>Pronto nos vemos en la carretera.</h2><p>NewRide está en preparación para Android. Mientras tanto, consulta cómo funciona y cómo protegemos tus datos.</p></div><a class="btn btn-secondary" href="privacidad.html">Conoce tu privacidad <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+       <a href="index.html" class="brand footer-brand"><span class="brand-symbol"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3 17a9 9 0 1 1 18 0"/><circle cx="12" cy="17" r="1"/><path d="M7 17h10"/></svg></span>NewRide</a>
+       <nav class="footer-links" aria-label="Información legal"><a href="privacidad.html">Privacidad</a><a href="condiciones.html">Condiciones de uso</a><a href="soporte.html">Soporte</a><a href="soporte.html#contacto">Contacto</a></nav>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> NewRide · Diseñada para quienes disfrutan cada kilómetro.</span><span>La carretera se disfruta con responsabilidad.</span></div>
+  </div>
+</footer>
+<button class="back-to-top" type="button" data-to-top aria-label="Volver arriba"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg></button>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
