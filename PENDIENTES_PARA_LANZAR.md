@@ -9,7 +9,7 @@ La web **sí** identifica al titular con nombre, localidad y correo de contacto,
 - [ ] Decidir si se explotará NewRide como persona física o mediante una sociedad real.
 - [ ] Completar en `aviso-legal.html` el NIF que corresponda al prestador y un domicilio/establecimiento legalmente válido, una vez decidido cómo hacerlo público de forma segura. **No inventar estos datos**.
 - [ ] Validar con asesoría fiscal el alta censal, Seguridad Social, impuestos y otras obligaciones antes de comenzar la actividad remunerada.
-- [ ] Revisar las obligaciones de comercialización en cada país de distribución. «Mundial» es un objetivo de mercado, no prueba de cumplimiento internacional.
+- [ ] Configurar **España como único país de distribución inicial en Google Play Console**. La selección de países se basa en el país de la cuenta de Google Play, no en la posición GPS. Antes de abrir otros mercados, revisar normas, precios e información legal. Evitar bloqueos geográficos injustificados dentro de la UE.
 
 ## Tratamiento de datos
 
@@ -25,7 +25,7 @@ La web **sí** identifica al titular con nombre, localidad y correo de contacto,
 - [ ] **Premium:** crear y probar el producto comercial, precio real, impuestos, renovación, cancelación, restauración y derechos de consumidores; ajustar las condiciones antes de aceptar pagos.
 - [ ] **Anuncios:** elegir red, integrar SDK solo con los permisos necesarios, actualizar privacidad, verificar transferencias y cumplimentar declaraciones en Google Play.
 - [ ] **Publicidad EEE/Reino Unido:** integrar una CMP certificada y mecanismos de elección cuando lo exija la tecnología publicitaria utilizada; no activar personalización sin cumplir las normas aplicables.
-- [ ] **Google Play:** establecer público objetivo 18+, declarar ads y Data safety con los datos efectivos, mostrar aviso destacado de GPS en segundo plano y entregar política y URL de eliminación.
+- [ ] **Google Play:** seleccionar solo España en **Producción → Países/regiones**, establecer público objetivo 18+, declarar ads y Data safety con los datos efectivos, mostrar aviso destacado de GPS en segundo plano y entregar política y URL de eliminación.
 - [ ] **Edad:** la casilla 18+ añadida en la app es una autodeclaración, no prueba documental de edad. Confirmar que otros puntos de acceso no eludan la política y ajustar requisitos de tienda.
 - [ ] **Web:** sustituir las imágenes de Unsplash por recursos locales si se desea evitar solicitudes de datos técnicos a ese tercero.
 
