@@ -1,0 +1,143 @@
+POLÍTICA DE PRIVACIDAD — NEWRIDE
+Actualización: 29 de octubre de 2026
+Ámbito inicial: España · Usuarios mayores de 18 años
+
+Documento íntegro equivalente al contenido público de https://lmt2506.github.io/NewRide.es/privacidad.html
+Esta copia descargable no incluye datos identificativos adicionales que no estén publicados en el sitio web.
+El NIF y el domicilio completo, cuando deban facilitarse conforme a la LSSI, se incorporarán al aviso legal accesible públicamente tras una decisión expresa del titular.
+
+1. Quién es el responsable
+
+El responsable del tratamiento de los datos personales de la aplicación y de esta web es Luis Miguel Marin Torres, con referencia de contacto en Granada (18007), España. Puedes escribir a luismi.ssj@gmail.com (mailto:luismi.ssj@gmail.com) para cuestiones de privacidad, solicitudes de derechos y soporte.
+
+La identificación fiscal y el domicilio o establecimiento completo que correspondan al ejercicio comercial de NewRide permanecen pendientes de completar públicamente antes de su monetización. Consulta el Aviso legal (aviso-legal.html). No se utilizan datos ficticios para sustituir esta información.
+
+Ámbito inicial: NewRide se dirigirá inicialmente al mercado español y su primera distribución comercial está prevista en Google Play España. La web informativa puede consultarse desde otros países, pero no se anuncia la comercialización inicial en ellos.
+
+2. Qué información recopilamos
+
+Cuenta y acceso
+
+Correo electrónico, identificador de cuenta, nombre visible, nombre de usuario y los datos técnicos necesarios para iniciar sesión. Cuando eliges Google, intervienen Google y Supabase en la autenticación; NewRide no necesita conocer tu contraseña de Google.
+
+Perfil, motos y mantenimiento
+
+Datos de vehículos que añades al garaje, kilómetros, intervalos y registros de mantenimiento y, si la función y el plan lo permiten, las imágenes que decides guardar.
+
+Trayectos, ubicación y sensores
+
+Coordenadas GPS precisas, marcas de tiempo, rumbo, altitud, velocidad, duración, distancia y precisión; estimaciones de curvas, frenadas, aceleración e inclinación obtenidas a partir del teléfono. Las rutas pueden revelar lugares visitados y desplazamientos habituales, por lo que merecen protección especial.
+
+Planificación, circuitos y archivos
+
+Itinerarios, búsquedas de lugares, GPX importados, sesiones de circuito, vueltas, estadísticas, mapas de calor y actividades personales, según las funciones utilizadas.
+
+Datos técnicos y comunicaciones
+
+Datos de sesión, peticiones a servicios de mapas, direcciones IP y registros técnicos tratados por proveedores de alojamiento o red. Si escribes al soporte, trataremos el mensaje y la información necesaria para responder.
+
+Pagos y publicidad futuros
+
+La aplicación está diseñada para incorporar Premium y anuncios. La versión revisada no tiene cobros comerciales ni un SDK publicitario activo. Si se activan, esta política se actualizará antes de tratar identificadores publicitarios, señales de consentimiento o datos de suscripción asociados a nuevos proveedores. Los pagos de la tienda no implican entregar a NewRide el número íntegro de tu tarjeta.
+
+3. Para qué usamos los datos y con qué base jurídica
+
+Finalidad | Base RGPD orientativa | 
+
+Crear y mantener cuentas; guardar garaje, rutas, estadísticas y contenido solicitado. | Art. 6.1.b: ejecución del contrato y servicios solicitados. | 
+
+Registrar GPS y sensores durante una sesión activada por la persona usuaria, incluida la continuidad en segundo plano. | Art. 6.1.b cuando sea necesario para la función solicitada; la base exacta debe verificarse con el tratamiento real. Los permisos del dispositivo son distintos de la base jurídica RGPD. | 
+
+Atender solicitudes, prevenir accesos indebidos y proteger el servicio. | Art. 6.1.b o 6.1.f, según la operación y la ponderación del interés legítimo. | 
+
+Cumplir obligaciones fiscales, contables o requerimientos legales cuando existan compras. | Art. 6.1.c, cuando sean aplicables. | 
+
+Publicidad personalizada, analítica publicitaria o tecnologías no esenciales, si se incorporan. | Consentimiento previo cuando lo exijan el RGPD, la normativa ePrivacy/LSSI o las reglas de la plataforma; no se consideran activadas actualmente. | 
+
+No utilizamos la ubicación GPS como permiso general para compartir públicamente tus rutas. Las finalidades deberán mantenerse limitadas a las funciones efectivamente ofrecidas.
+
+4. Ubicación, telemetría y segundo plano
+
+NewRide registra la ubicación precisa para dibujar recorridos, estimar métricas y calcular vueltas en circuito cuando activas una sesión. En Android puede mantener una notificación y un servicio de ubicación en primer plano, y continuar captando posiciones mientras la app está en segundo plano durante la grabación.
+
+Los sensores del móvil permiten estimar inclinación, movimiento y aceleraciones. Los resultados son aproximados, pueden contener errores y no son instrumentos profesionales u homologados.
+
+Puedes denegar o retirar los permisos desde el sistema operativo; entonces el seguimiento y parte de la telemetría pueden dejar de funcionar. La app debe mostrar los avisos y permisos de ubicación que correspondan antes del primer uso efectivo.
+
+5. Almacenamiento y plazos de conservación
+
+La aplicación utiliza datos locales en el teléfono y, para el contenido sincronizado, la infraestructura de Supabase. La región principal del proyecto de base de datos identificada es eu-central-1 (Alemania); esto no garantiza por sí solo que todos los accesos y tratamientos de todos los proveedores permanezcan dentro del EEE.
+
+Rutas guardadas: su trazado e información asociada permanecen disponibles hasta que sean eliminados por el procedimiento correspondiente, de acuerdo con los criterios de conservación aplicables.
+
+Actividades no guardadas en «Mis rutas»: la implementación revisada conserva los detalles GPS/telemetría de las diez salidas más recientes de esa categoría. Al superar el límite se depuran esos detalles, aunque pueden mantenerse resúmenes para kilometraje, estadísticas, mantenimiento y prevención de duplicidades.
+
+Cuenta y garaje: se conservan mientras sean necesarios para prestar el servicio y, en su caso, atender obligaciones legales y reclamaciones. Los plazos de registros técnicos, copias de seguridad y eliminación en sistemas de terceros aún deben verificarse con cada proveedor; no se promete un plazo inventado ni eliminación instantánea de respaldos.
+
+6. Con quién se comparten datos
+
+Dependiendo de las funciones utilizadas, NewRide puede transmitir los datos necesarios a estos servicios:
+
+- Supabase: autenticación, base de datos, rutas sincronizadas, garaje, mantenimiento y almacenamiento privado de imágenes cuando proceda.
+
+- Google: autenticación federada si eliges iniciar sesión con Google.
+
+- OpenStreetMap y servicios de mapas: entrega de cartografía, con posible acceso a IP y áreas consultadas.
+
+- Photon/Komoot: consultas de búsqueda de lugares y posibles coordenadas de referencia.
+
+- OSRM, Valhalla y Overpass: cálculo de recorridos o consultas geográficas; pueden recibir puntos de origen, destino, intermedios o zonas consultadas.
+
+- GitHub Pages (GitHub, Inc.): alojamiento de esta web pública, con los datos técnicos necesarios para servirla.
+
+- Unsplash: las fotografías de la portada se cargan actualmente desde imágenes externas y pueden generar solicitudes con IP y datos técnicos.
+
+Proveedores futuros: Google Play/RevenueCat para compras Premium y una red publicitaria todavía no seleccionada. No afirmamos que estos proveedores procesen actualmente compras o publicidad en producción. Las condiciones de tratamiento y posibles transferencias se revisarán antes de activarlos.
+
+La presencia de un servicio técnico no significa que todas las categorías de datos se compartan siempre: depende de cada función, los permisos concedidos y las solicitudes realizadas.
+
+7. Quién puede ver tus rutas y tu contenido
+
+Los recorridos, estadísticas, garaje y mapas de calor personales están concebidos para el propio usuario. Según la documentación del proyecto, las funciones sociales, publicaciones de rutas, salidas de grupo y enlaces públicos de ubicación están desactivados, y las reglas de acceso remoto restringen los datos personales al titular de la cuenta.
+
+No ofrecemos actualmente clasificaciones públicas, perfiles públicos de conducción ni acceso a rutas privadas por enlaces de seguimiento en vivo. Si estas opciones se reintroducen, deberán anunciarse y revisarse la privacidad y los controles de visibilidad antes de su puesta en marcha.
+
+8. Publicidad, seguimiento y cookies
+
+NewRide prevé una versión Free con anuncios y una modalidad Premium sin publicidad, pero la integración publicitaria no está activa en el código revisado. No declaramos un proveedor publicitario ni un identificador de anuncios como ya operativo.
+
+Antes de mostrar anuncios se describirán las categorías de datos realmente utilizadas, la red publicitaria, la personalización, la medición, las bases jurídicas, las posibles transferencias y los controles de consentimiento y retirada exigibles. Las preferencias del dispositivo o de una futura plataforma de gestión del consentimiento se respetarán según la normativa aplicable.
+
+Esta web estática no incorpora actualmente analítica propia ni un formulario de captación. Puede haber peticiones y registros técnicos de alojamiento y carga de fotografías externas. Si en el futuro se instalan cookies o tecnologías no esenciales, se informará y solicitará consentimiento cuando corresponda.
+
+9. Tus derechos y eliminación de cuenta
+
+Según la normativa aplicable puedes solicitar acceso, rectificación, supresión, limitación, oposición y portabilidad en los supuestos previstos, así como retirar un consentimiento sin afectar a la licitud del tratamiento anterior. Para ejercer tus derechos escribe a luismi.ssj@gmail.com (mailto:luismi.ssj@gmail.com). Se podrá pedir información mínima para verificar razonablemente la titularidad.
+
+Con carácter general, las solicitudes RGPD se responden en el plazo de un mes, con las ampliaciones justificadas previstas legalmente. Puedes consultar la vía web de eliminación de cuenta (eliminar-cuenta.html). El flujo completo de supresión dentro de la aplicación todavía requiere implementación y pruebas, por lo que no afirmamos que el borrado sea automático.
+
+Si consideras vulnerados tus derechos en España puedes presentar una reclamación ante la Agencia Española de Protección de Datos (https://www.aepd.es/).
+
+10. Transferencias internacionales
+
+El lanzamiento inicial de NewRide está dirigido a España y no se anuncia una oferta comercial destinada a otros mercados en esta primera fase. Algunos proveedores pueden estar establecidos o prestar soporte fuera del Espacio Económico Europeo aunque la aplicación se distribuya inicialmente en España. Se revisarán los destinatarios, acuerdos de tratamiento y mecanismos de transferencia internacional que correspondan (por ejemplo, decisiones de adecuación o garantías apropiadas).
+
+El hecho de que la base de datos principal esté en Alemania no debe interpretarse como garantía de ausencia de transferencias en toda la cadena de servicios.
+
+11. Medidas de seguridad
+
+El proyecto utiliza autenticación y reglas de acceso a datos por cuenta en Supabase, junto con almacenamiento privado para determinadas fotografías. Se deberán mantener controles de acceso, configuración segura, copias de seguridad, revisión de incidencias y prácticas razonables de actualización.
+
+No existe seguridad absoluta. Ante sospechas de acceso indebido o pérdida de datos puedes comunicarlo a luismi.ssj@gmail.com (mailto:luismi.ssj@gmail.com). Se evaluará cada incidente y se efectuarán las notificaciones exigidas por ley cuando corresponda.
+
+12. Personas menores de edad
+
+NewRide está dirigida únicamente a personas de 18 años o más. No se permite a menores registrarse ni utilizar el servicio. La aplicación incorpora una declaración de mayoría de edad previa al acceso, pero esta no supone una comprobación documental automática de la edad.
+
+Si tenemos conocimiento de una cuenta que pertenece a un menor, se revisará y, cuando corresponda, se restringirá el acceso y se gestionará la eliminación de sus datos. Puedes comunicar estos casos a luismi.ssj@gmail.com (mailto:luismi.ssj@gmail.com).
+
+13. Cambios y contacto
+
+Esta política se revisará cuando cambien funciones, proveedores, prácticas de conservación o requisitos legales. Las modificaciones relevantes se comunicarán por los medios adecuados cuando sea necesario; una simple publicación no sustituye un consentimiento requerido por ley.
+
+Contacto: luismi.ssj@gmail.com (mailto:luismi.ssj@gmail.com). También puedes consultar las Condiciones de uso (condiciones.html), el Aviso legal (aviso-legal.html) y Soporte (soporte.html).
